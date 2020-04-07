@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+__pycache__
+.idea
+.vscode
+
+chrome-extension/public/build
+.DS_Store
