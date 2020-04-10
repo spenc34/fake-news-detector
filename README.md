@@ -57,7 +57,7 @@ npm install
 It may take a few minutes to install dependencies. After dependencies are installed, build the app by running
 
 ```bash
-npm build
+npm run build
 ```
 
 This compiles `App.svelte` into raw JavaScript that can be easily run as a web app.
