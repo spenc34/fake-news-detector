@@ -39,6 +39,8 @@ flask run -h localhost -p 3000
 
 It may take a little while for the server to start.
 
+*Edit: I still got some errors trying to install this on another machine after following all the steps. You may just have to `pip install` the necessary packages yourself. If you try to start the server and it doesn't work, just install the package it says it doesn't have. It's not too many. I had to manually install `flask_cors`, `tldextract`, `editdistance`, and `pytorch`.*
+
 ## Chrome Extension
 In order to install dependencies locally, you'll need to have NPM installed and added to your path. You can check by running
 
@@ -55,7 +57,7 @@ npm install
 It may take a few minutes to install dependencies. After dependencies are installed, build the app by running
 
 ```bash
-npm build
+npm run build
 ```
 
 This compiles `App.svelte` into raw JavaScript that can be easily run as a web app.
